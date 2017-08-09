@@ -8,8 +8,6 @@ from gpiozero import LED
 import time
 import math
 
-duty = 0
-
 GPIO.setmode(GPIO.BCM)
 
 led0 = LED(7)
@@ -22,8 +20,6 @@ led6 = LED(15)
 led7 = LED(14)
 
 #leds = [led7, led6, led5, led4, led3, led2, led1, led0]
-
-x = 0
 
 textInput = input("How many blinkies? Type \"1\" for every blink. ")
 
